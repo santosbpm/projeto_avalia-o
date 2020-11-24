@@ -1,11 +1,12 @@
-header {
-    padding-bottom: 160px;
-}
-
 footer {
     padding: 2.5rem 0;
     color: #999;
     text-align: center;
     background-color: #f9f9f9;
     border-top: .05rem solid #e5e5e5;
+}
+
+#section_style {
+    background-color: white;
+    margin-top: 150px;
 }
