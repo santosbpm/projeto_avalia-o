@@ -10,3 +10,16 @@ footer {
     background-color: white;
     margin-top: 150px;
 }
+
+#section_style_2 {
+    margin-top: 30px;
+}
+
+.blog-post {
+    padding-bottom: 24px;
+}
+
+.blog-post h1 {
+    padding-top: 24px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

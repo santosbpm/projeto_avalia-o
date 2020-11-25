@@ -14,10 +14,11 @@
     <!-- JAVASCRIPT -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
-    <!-- Infelizmente ainda é um prototipo e não tem o modo escuro-->
+    <!-- Infelizmente ainda é um prototipo e no momento não tem o modo escuro -->
     <header>
         <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
             <a class="navbar-brand" href="#">
@@ -37,18 +38,21 @@
                     </li>
                     <li class="nav-item">
                         <button type="button" class="btn btn-outline-secondary">
-                            <a class="nav-link" href="#">Testes</a>
+                            <a class="nav-link" href="https://www.16personalities.com/br/teste-de-personalidade"
+                                onClick="redirect_information()" target="_blank">Testes</a>
                         </button>
                     </li>
                     <li class="nav-item">
                         <button type="button" class="btn btn-outline-secondary">
-                            <a class="nav-link" href="#">Introversão</a>
+                            <a class="nav-link" href="https://pt.wikipedia.org/wiki/Extravers%C3%A3o_e_introvers%C3%A3o"
+                                target="_blank">Introversão</a>
                         </button>
                     </li>
                     <li class="nav-item">
                         <button type="button" class="btn btn-outline-secondary">
                             <!-- Esse site, que eu também criei, utiliza media queries para ficar responsivo -->
-                            <a class="nav-link" href="https://santosbpm.github.io/my-git-site/">Contato</a>
+                            <a class="nav-link" href="https://santosbpm.github.io/my-git-site/"
+                                target="_blank">Contato</a>
                         </button>
                     </li>
                 </ul>
@@ -56,12 +60,12 @@
         </nav>
     </header>
 
-    <section class="jumbotron text-center" id="section_style">
+    <section class="jumbotron text-center jumbotron-fluid" id="section_style">
         <div class="container">
             <h1 class="display-4 font-italic">Introversão</h1>
-            <p class="lead text-muted">Something short and leading about the collection below—its contents, the
-                creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                entirely.</p>
+            <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam maxime placeat
+                magnam officia ex adipisci nulla. Atque delectus autem dolores ullam in! Similique commodi cum sed
+                cumque nam at. Officia!</p>
         </div>
     </section>
 
@@ -74,14 +78,16 @@
                             <img src="imgs/introversão.jpg" alt="Introversão" width="100%" height="225">
                             <div class="card-body text-center">
                                 <h3>Introversão</h3>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+                                    debitis quis architecto, harum, voluptatum explicabo sunt animi iste, ipsum
+                                    perspiciatis maiores aliquam iure! Doloribus id quis vero, alias cumque tempora.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="mb-4">
                             <img src="imgs/versus.png" alt="Versus" width="100%" height="300">
+                            <h2 class="text-center">Diferenças</h2>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -89,20 +95,68 @@
                             <img src="imgs/extroversão.jpg" alt="Extroversão" width="100%" height="225">
                             <div class="card-body text-center">
                                 <h3>Extroversão</h3>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                                    numquam magni autem omnis architecto accusamus adipisci quam? Eum, modi deleniti? A,
+                                    dignissimos dicta quisquam aperiam incidunt voluptates sed architecto veniam.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="container">
+            <section class="jumbotron bg-dark" id="section_style_2">
+                <div class="py-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="imgs/introversão_extroversão.jpg"
+                                alt="Desenho demonstrando um introvertido e um extrovertido"
+                                class="rounded img-thumbnail" width="200px" height="200px">
+                        </div>
+                        <div class="col-md-9">
+                            <p class="lead text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Pariatur,
+                                rerum voluptates dolorem aliquid cumque quam inventore, molestias quae libero voluptas
+                                distinctio id eaque laborum facilis illo saepe. Cum, nihil voluptatem! <br>Lorem ipsum
+                                dolor
+                                sit, amet consectetur adipisicing elit. Iste porro enim unde beatae facilis odit quaerat
+                                corrupti sequi quibusdam est temporibus impedit facere excepturi, fugiat, eum nobis cum
+                                ut
+                                non?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </section>
+
+    <main role="main" class="container">
+        <div class="blog-post">
+            <h1 class="blog-post-title border-top">Pessoas Introvertidas</h1>
+            <p class="blog-post-meta">Novembro 25, 2020 por 
+                <a href="https://www.instagram.com/santosbpm.0/">Marcos Paulo</a>
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ex officia? Pariatur, odit voluptatibus
+                vero atque aliquam nulla ipsa aliquid aperiam, eveniet molestias rem dolorum doloribus sapiente
+                temporibus quos modi?</p>
+            <hr>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, ipsa nemo iure animi aspernatur error
+                excepturi deserunt laboriosam architecto aliquam minus mollitia ipsam adipisci est fugiat numquam
+                reiciendis nostrum blanditiis?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quis! Autem earum nulla itaque esse
+                deleniti eaque commodi eveniet perspiciatis corrupti. Incidunt officia eius voluptate, distinctio
+                reiciendis nihil enim voluptas?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi exercitationem, soluta hic similique
+                adipisci eos, molestias iste atque commodi corrupti voluptatum aliquid! Quas recusandae eveniet dolor
+                iusto veritatis? Deserunt, quia.</p>
+        </div>
+    </main>
 
     <footer>
         <p>Modelo de site criado para Avalição 2 feito por <a href="https://github.com/santosbpm">@santosbpm</a>.</p>
         <p>
-            <a href="#">Back to top</a>
+            <a href="#">Voltar para o topo</a>
         </p>
     </footer>
 
